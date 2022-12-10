@@ -1,0 +1,13 @@
+node_modules
+.idea
+dka.env
+yarn.lock
+/yarn-error.log
+/Logs/**
+/test/REACT/error.log
+/test/REACT/info.log
+/dka.env.**
+/test/Socket.Io/CA/
+/dist/
+/**/Logs/*
+/tsconfig.tsbuildinfo
