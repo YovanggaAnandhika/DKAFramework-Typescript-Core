@@ -1,6 +1,8 @@
+import { Core } from "../src";
+
 (async () => {
-    await require("./Express");
-    await require("./FASTIFY");
-    await require("./REACT");
-    await require("./Socket.Io");
+
+    Core.Server({
+        engine: "FASTIFY",
+    })
 })();

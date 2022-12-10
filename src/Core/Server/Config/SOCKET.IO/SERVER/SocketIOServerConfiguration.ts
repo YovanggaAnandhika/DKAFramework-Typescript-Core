@@ -23,6 +23,6 @@ export interface SocketIOServerServerConfigurationSettings {
 
 export interface SocketIOServerServerConfiguration {
     engine: "SOCKET.IO"
-    port: number,
+    port ?: number,
     settings?: SocketIOServerServerConfigurationSettings
 }

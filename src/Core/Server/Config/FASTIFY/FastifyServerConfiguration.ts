@@ -11,10 +11,10 @@ export interface FastifyServerConfigurationLogger {
 
 
 export interface FastifyServerConfiguration {
-    version: "VERSION_1" | "VERSION_2",
-    engine: "FASTIFY",
-    logger?: undefined | FastifyServerConfigurationLogger,
-    host: string,
-    port: number,
+    version ?: "VERSION_1" | "VERSION_2",
+    engine ?: "FASTIFY",
+    logger ?: undefined | FastifyServerConfigurationLogger,
+    host ?: string,
+    port ?: number,
     settings?: FastifyServerConfigurationSettings
 }

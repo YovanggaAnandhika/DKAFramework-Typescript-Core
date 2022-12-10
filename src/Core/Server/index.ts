@@ -110,8 +110,4 @@ export function Server<ServerConfig extends ServerConfigurationMultipleTypes, T 
     }
 }
 
-export function Client() {
-
-}
-
-export default {Server, Client}
+export default Server;

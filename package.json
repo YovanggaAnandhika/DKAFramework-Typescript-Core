@@ -33,19 +33,10 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "test:socketio:client": "ts-node test/Socket.Io/client.ts",
-    "test:socketio:client2": "ts-node test/Socket.Io/client2.ts",
-    "test:socketio:server": "ts-node test/Socket.Io/server.ts",
-    "test:react": "ts-node test/REACT/index.ts",
-    "test:fastify": "ts-node test/FASTIFY/index.ts",
-    "test:express": "ts-node test/Express/index.ts",
-    "test:reactnative": "ts-node test/EXPO/index.tsx",
-    "test:all": "ts-node test/index.ts",
-    "test:2": "ts-node test/test2.ts",
+    "test" : "nodemon --watch src --exec ts-node test/index.ts",
     "action:clean": "tsc --build --clean",
     "action:compile": "tsc --build",
     "action:copy": "tscp",
-    "testd": "electron test/test-electron.js",
     "build": "yarn run action:clean && yarn run action:compile && yarn run action:copy"
   },
   "dependencies": {
